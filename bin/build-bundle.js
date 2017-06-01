@@ -6,7 +6,7 @@ var shell = require("shelljs");
 var userdir  = require('os').homedir();
 
 program
-    .version('0.0.1')
+    .version('0.0.2')
     .option('-a, --android', 'build js-bundle for andrid')
     .option('-i, --ios', 'build js-bundle for ios')
     .option('-c, --clear', 'clear js-bundle')
