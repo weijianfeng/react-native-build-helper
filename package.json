@@ -1,19 +1,21 @@
 {
   "name": "react-native-build-helper",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "build-bundle": "./bin/build-bundle.js"
+    "build-bundle": "./bin/build-bundle.js",
+    "copy-bundle": "./bin/copy-bundle.js"
   },
   "keywords": [],
   "author": "weijianfeng",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.9.0",
+    "fs-extra": "^3.0.1",
     "shelljs": "^0.7.7"
   }
 }
