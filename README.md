@@ -1,5 +1,5 @@
 # react-native-build-helper
-A npm tool to help build js-bundle in React Native Project. [(Package in NPM)](https://www.npmjs.com/package/react-native-build-helper)
+A npm tool to help build js-bundle in React Native Project. 
 
 In some hybrid projects, We may add some React Native code to an original Android or iOS project. The possible project architecture may like this:
 
@@ -27,7 +27,7 @@ The current version only supports Android Project when copying files.
 
 # Installation
 ```
-npm i react-native-build-helper --save
+npm i -g react-native-build-helper
 ```
 
 # Usage

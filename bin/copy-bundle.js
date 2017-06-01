@@ -5,7 +5,7 @@ var fs = require('fs-extra');
 var userdir = require('os').homedir();
 
 program
-    .version('0.0.2')
+    .version('0.0.3')
     .option('-a, --android', 'copy js-bundle to andrid project')
     .option('-i, --ios', 'copy js-bundle to ios project')
     .parse(process.argv);
